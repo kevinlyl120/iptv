@@ -1,4 +1,4 @@
-name: Update
+name: IPTV_Update
 
 on:
   watch:

@@ -22,7 +22,7 @@ jobs:
     - name: GetTime
       run: echo "DATE=$(date +'%Y-%m-%d %H:%M:%S CST')" >> $GITHUB_ENV
 
-    - name: Update
+    - name: IPTV_Update
       run: |
         # 央视源
         rm -f CCTV.m3u && wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CCTV.m3u
